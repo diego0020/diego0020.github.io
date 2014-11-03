@@ -3,4 +3,14 @@ layout : default
 title : diego0020
 ---
 
-Hello Jekyll
+<h2> Blog list </h2>
+<ul>
+{% for post in site.posts %}
+<li>
+<a href="{{ post.url }}">{{ post.title }}</a>
+{{ post.excerpt }}
+</li>
+{% endfor %}
+</ul>
+
+</div>
