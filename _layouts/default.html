@@ -1,13 +1,6 @@
 ---
+theme :
+  name : bootstrap-3
 ---
-<html>
-<head>
-<title> Blog </title>
-</head>
-<body>
-<h1> Hello Jekyll </h1>
-{{ content }}
-
-</body>
-
-</html>
+{% include JB/setup %}
+{% include themes/bootstrap-3/default.html %}
