@@ -22,14 +22,18 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-}
-
 h1 {
   margin-bottom: 1em;
 }
 
+h2 {
+ margin-top: 2em;
+ margin-bottom: 1em;
+}
+
+h3 {
+margin-top: 1em;
+}
 p {
   margin: 1em 0;
 }
@@ -157,8 +161,11 @@ ul.posts {
 
   #post pre {
     border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: #DEE8ED;
     padding: 0 .4em;
+	overflow-x: auto;
+	overflow-y: auto;
+	max-height: 30em;
   }
 
   #post ul,
@@ -168,7 +175,7 @@ ul.posts {
 
   #post code {
     border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: #DEE8ED;
     font-size: 85%;
     padding: 0 .2em;
   }
@@ -188,6 +195,10 @@ ul.posts {
   #post pre.terminal code {
     background-color: #333;
   }
+  
+  #post img {
+	max-width: 100%;
+	}
 
 #related {
   margin-top: 2em;
