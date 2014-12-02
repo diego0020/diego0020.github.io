@@ -19,7 +19,7 @@ body {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
-  text-align: center;
+  
 }
 
 h1 {
@@ -182,6 +182,7 @@ ul.posts {
 
     #post pre code {
       border: none;
+	  padding: 0;
     }
 
   /* terminal */
